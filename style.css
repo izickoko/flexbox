@@ -9,7 +9,7 @@ background-color: blue;
 padding:20px 0;
 }
 .menu{
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     width: 900px;
     display: flex;
     justify-content: space-between;
@@ -37,4 +37,22 @@ padding:20px 0;
     height: 300px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    /*vertical axis use align-items, while horizontal use justify-content*/
+}
+.photo-grid-container{
+    display: flex;
+    justify-content: center;
+}
+.photo-grid{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.photo-grid-item{
+    border: 1px solid white;
+    width: 300px;
+    height: 300px;
 }
